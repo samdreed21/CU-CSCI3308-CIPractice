@@ -176,6 +176,7 @@ Suite* coord_2d_suite(void)
     /* Setup Test Cases */
     TCase* tc_2d_eq = tcase_create("coord_2d_eq");
     tcase_add_test(tc_2d_eq, test_2d_eq);
+    //hi
 
     TCase* tc_2d_dist = tcase_create("coord_2d_dist");
     tcase_add_test(tc_2d_dist, test_2d_dist);
