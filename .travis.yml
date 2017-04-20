@@ -2,3 +2,4 @@ language: c
 compiler: clang
 install: make dep
 script: make clean && make && make test
+sudo: required 
